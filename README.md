@@ -1,7 +1,8 @@
 # @jakubcata/web-plugins
 
 ReactJS library for web applications gathered under Jakubcata
-Setup
+
+## Setup
 
 `npm install`
 
