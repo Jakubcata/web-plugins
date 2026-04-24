@@ -2,7 +2,7 @@ import { Dummy } from '../Dummy';
 import { StoryObj } from '@storybook/react';
 
 const meta = {
-    title: '@musica-sacra/Dummy/components/Dummy',
+    title: '@jakubcata/Dummy/components/Dummy',
     component: Dummy,
     args: {
         dummyText: 'Dummy text',

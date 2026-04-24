@@ -1,6 +1,6 @@
 # @jakubcata/hooks
 
-Plugin with useful hooks for MusicaSacra web applications.
+Plugin with useful hooks for Jakubcata web applications.
 
 ## Installation
 
