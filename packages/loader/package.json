@@ -1,7 +1,7 @@
 {
-  "name": "@jakubcata/hooks",
+  "name": "@jakubcata/loader",
   "version": "0.0.0",
-  "description": "Plugin with useful hooks for Jakubcata web applications.",
+  "description": "Reusable loader component for react web apps",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -19,14 +19,16 @@
   ],
   "keywords": [
     "jakubcata",
-    "hooks",
-    "useBem",
-    "bem"
+    "loader",
+    "react",
+    "component"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jakubcata/hooks": "^1.0.0"
+  },
   "devDependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
