@@ -1,6 +1,6 @@
 {
   "name": "@jakubcata/loader",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reusable loader component for react web apps",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
