@@ -9,9 +9,8 @@ export type NotificationTypeType =
     (typeof NotificationTypes)[keyof typeof NotificationTypes];
 
 export type NotificationType = {
-    id: string,
-    message: string,
-    type: NotificationTypeType,
-    timeout: number,
-    key?: string
+    id: string;
+    message: string;
+    type: NotificationTypeType;
+    timeout: number;
 };

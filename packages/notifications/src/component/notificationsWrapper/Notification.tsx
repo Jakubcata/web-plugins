@@ -7,12 +7,12 @@ type NotificationProps = Omit<NotificationType, 'type'> & {
 };
 
 function NotificationComponent({
-                                   id,
-                                   message,
-                                   timeout,
-                                   className,
-                                   key
-                               }: NotificationProps) {
+    id,
+    message,
+    timeout,
+    className,
+    key,
+}: NotificationProps) {
     const { removeNotification } = useContext(NotificationsContext);
 
     const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -34,7 +34,7 @@ function NotificationComponent({
     };
 
     return (
-        <div className={className} onClick={handleClick}>
+        <div key={key} className={className} onClick={handleClick}>
             {message}
         </div>
     );
