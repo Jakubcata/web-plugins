@@ -34,6 +34,10 @@ export const createBaseConfig = () => {
                         dest: 'dist',
                     },
                     {
+                        src: 'src/**/*.css',
+                        dest: 'dist',
+                    },
+                    {
                         src: 'src/**/__tests__/*.stories.@(js|jsx|ts|tsx)',
                         dest: 'dist',
                     },
