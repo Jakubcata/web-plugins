@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jacobii/hooks": "^1.0.0"
+    "@jakubcata/hooks": "^1.0.0"
   },
   "devDependencies": {
     "react": "^19.0.0",
