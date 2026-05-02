@@ -1,5 +1,15 @@
 # @jacobii/loader
 
+## 1.0.1
+
+### Patch Changes
+
+- 86453f2: Fix dependencies.
+
+  **What** Fix dependencies.
+  **Why** Nothing.
+  **How** Nothing.
+
 ## 1.0.0
 
 ### Major Changes
