@@ -1,11 +1,11 @@
-# @jakubcata/hooks
+# @jacobii/hooks
 
 Plugin with useful hooks for Jakubcata web applications.
 
 ## Installation
 
 ```console
-npm install @jakubcata/hooks
+npm install @jacobii/hooks
 ```
 
 <br/>
@@ -21,7 +21,7 @@ Hook for creating css classes with bem naming convention.
 Hook useBem accepts one required argument: the base classname of the parent.
 
 ```jsx
-import { useBem } from '@jakubcata/hooks'
+import { useBem } from '@jacobii/hooks'
 
 function App() {
     const { bem, base, modifier } = useBem('app'); // Pass the parent base className as argument

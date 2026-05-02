@@ -1,10 +1,10 @@
-# @jakubcata/loader
+# @jacobii/loader
 
 A simple and customizable React Loader component for indicating loading states in your app.
 
 ## Installation
 
-`npm install @jakubcata/loader`
+`npm install @jacobii/loader`
 
 ## Basic Usage
 
