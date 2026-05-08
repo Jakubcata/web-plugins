@@ -1,0 +1,14 @@
+.jx-container {
+    max-width: 1280px;
+    width: 100%;
+
+    margin: 0 auto;
+
+    position: relative;
+
+    &-- {
+        &page-container {
+            min-height: 100vh;
+        }
+    }
+}
