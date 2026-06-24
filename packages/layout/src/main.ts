@@ -7,3 +7,5 @@ import { Prince } from './components/prince/Prince';
 export { Container, King, Queen, Prince };
 
 export { useSidebar } from './context/SidebarContext';
+
+import './style.css';

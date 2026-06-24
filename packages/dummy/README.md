@@ -6,6 +6,14 @@ Just a dummy react component
 
 `npm install @jakubcata/dummy`
 
+Import styles from plugin entry point.
+
+```css
+/* style.css */
+
+@import '@jacobii/dummy/style';
+```
+
 ## Basic Usage
 
 ```jsx

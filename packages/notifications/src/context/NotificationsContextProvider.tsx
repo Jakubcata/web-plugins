@@ -1,5 +1,5 @@
 import { createContext, useState, ReactNode, useCallback } from 'react';
-import { Notifications } from '../component/notificationsWrapper/Notifications';
+import { NotificationsWrapper } from '../component/notificationsWrapper/NotificationsWrapper';
 import { v4 as uuid } from 'uuid';
 import {
     type NotificationType,
@@ -64,7 +64,7 @@ export function NotificationsContextProvider({
         <NotificationsContext.Provider
             value={{ notifications, addNotification, removeNotification }}
         >
-            <Notifications notifications={notifications} />
+            <NotificationsWrapper notifications={notifications} />
             {children}
         </NotificationsContext.Provider>
     );

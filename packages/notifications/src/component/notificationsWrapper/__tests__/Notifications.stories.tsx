@@ -1,4 +1,4 @@
-import { Notifications } from '../Notifications';
+import { NotificationsWrapper } from '../NotificationsWrapper';
 import { StoryObj } from '@storybook/react';
 
 const mockNotifications = [
@@ -36,7 +36,7 @@ const mockNotifications = [
 
 const meta = {
     title: '@jacobii/Notifications/components/Notifications',
-    component: Notifications,
+    component: NotificationsWrapper,
     args: {
         notifications: mockNotifications,
     },

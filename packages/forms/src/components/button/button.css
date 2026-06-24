@@ -21,19 +21,17 @@
         color: rgba(142, 142, 147, 1);
     }
 
-    &-- {
-        &accent {
+    .jx-button--accent {
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(8, 130, 170, 1);
+
+        &:disabled {
+            background-color: rgba(8, 130, 170, 0.2);
             color: rgba(255, 255, 255, 1);
-            background-color: rgba(8, 130, 170, 1);
-
-            &:disabled {
-                background-color: rgba(8, 130, 170, 0.2);
-                color: rgba(255, 255, 255, 1);
-            }
         }
+    }
 
-        &rounded {
-            border-radius: 12px;
-        }
+    .jx-btton--rounded {
+        border-radius: 12px;
     }
 }

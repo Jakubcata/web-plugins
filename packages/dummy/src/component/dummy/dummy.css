@@ -1,0 +1,9 @@
+.jx-dummy {
+  span {
+    color: var(--color);
+
+    @media (max-width: 1200px) {
+      color: darkcyan;
+    }
+  }
+}

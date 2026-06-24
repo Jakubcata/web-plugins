@@ -1,4 +1,4 @@
-export { Notifications } from './component/notificationsWrapper/Notifications';
+export { NotificationsWrapper } from './component/notificationsWrapper/NotificationsWrapper';
 
 export {
     NotificationsContext,
@@ -10,3 +10,5 @@ export {
     type NotificationType,
     type NotificationTypeType,
 } from './types/types';
+
+import './style.css';

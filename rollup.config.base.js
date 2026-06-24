@@ -5,6 +5,8 @@ import terser from '@rollup/plugin-terser';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import copy from 'rollup-plugin-copy';
 import dts from 'rollup-plugin-dts';
+import postcss from 'rollup-plugin-postcss';
+import postcssImport from 'postcss-import';
 
 export const createBaseConfig = () => {
     return {
@@ -27,16 +29,12 @@ export const createBaseConfig = () => {
             commonjs(),
             typescript({ tsconfig: './tsconfig.json' }),
             terser(),
+            postcss({
+                extract: 'style.css',
+                plugins: [postcssImport()],
+            }),
             copy({
                 targets: [
-                    {
-                        src: 'src/**/*.scss',
-                        dest: 'dist',
-                    },
-                    {
-                        src: 'src/**/*.css',
-                        dest: 'dist',
-                    },
                     {
                         src: 'src/**/__tests__/*.stories.@(js|jsx|ts|tsx)',
                         dest: 'dist',
@@ -58,6 +56,6 @@ export const createTypeConfig = () => {
             },
         ],
         plugins: [dts.default()],
-        external: [/\.scss/, /\.stories\.(js|jsx|ts|tsx|mdx)?$/],
+        external: [/\.css/, /\.stories\.(js|jsx|ts|tsx|mdx)?$/],
     };
 };

@@ -4,6 +4,7 @@ import { NotificationsContext } from '../../context/NotificationsContextProvider
 
 type NotificationProps = Omit<NotificationType, 'type'> & {
     className?: string;
+    key: string;
 };
 
 function NotificationComponent({

@@ -6,6 +6,14 @@ Utilities and components for building forms in jacobii apps.
 
 `npm install @jacobii/forms`
 
+Import styles from plugin entry point.
+
+```css
+/* style.css */
+
+@import '@jacobii/forms/style';
+```
+
 ## Components
 
 All components accept traditional props of `children` and `className`.
