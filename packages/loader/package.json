@@ -5,6 +5,14 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./style": "./dist/style.css"
+  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,7 +36,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@jacobii/hooks": "^1.0.0"
+    "@jacobii/hooks": "1.0.0"
   },
   "devDependencies": {
     "react": "^19.0.0",

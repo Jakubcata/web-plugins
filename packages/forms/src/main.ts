@@ -6,4 +6,6 @@ import { Input } from './components/input/Input';
 import { InputGroup } from './components/inputGroup/InputGroup';
 import { Label } from './components/label/Label';
 
+import './style.css';
+
 export { Button, FormContent, FormGroup, FormRow, Input, InputGroup, Label };

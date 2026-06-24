@@ -3,5 +3,9 @@ export type DummyProps = {
 };
 
 export function Dummy({ dummyText }: DummyProps) {
-    return <div className={'jx-dummy'}>{`Your dummy text ${dummyText}`}</div>;
+    return (
+        <div className={'jx-dummy'}>
+            <span>{`Your dummy text ${dummyText}`}</span>
+        </div>
+    );
 }

@@ -6,8 +6,8 @@ type NotificationsProps = {
     notifications: NotificationType[];
 };
 
-export function Notifications({ notifications }: NotificationsProps) {
-    const { bem } = useBem('jx-notifications');
+export function NotificationsWrapper({ notifications }: NotificationsProps) {
+    const { bem } = useBem('jx-notifications-wrapper');
 
     return (
         <div className={bem()}>

@@ -6,6 +6,15 @@ Layout components for building easy and consistent web app layouts in React.
 
 `npm install @jacobii/layout --save`
 
+
+Import styles from plugin entry point.
+
+```css
+/* style.css */
+
+@import '@jacobii/layout/style';
+```
+
 ## Provided Components
 
 This package provides the following React layout components:

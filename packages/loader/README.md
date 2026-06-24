@@ -6,6 +6,14 @@ A simple and customizable React Loader component for indicating loading states i
 
 `npm install @jacobii/loader`
 
+Import styles from plugin entry point.
+
+```css
+/* style.css */
+
+@import '@jacobii/loader/style';
+```
+
 ## Basic Usage
 
 ```jsx

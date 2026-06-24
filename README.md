@@ -1,4 +1,4 @@
-# @jakubcata/web-plugins
+# @jacobii/web-plugins
 
 ReactJS library for web applications gathered under Jakubcata
 

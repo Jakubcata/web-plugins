@@ -8,6 +8,14 @@ This plugin utilizes react contextApi and creates NotificationsContextProvider t
 
 `npm install @jacobii/notifications`
 
+Import styles from plugin entry point.
+
+```css
+/* style.css */
+
+@import '@jacobii/notifications/style';
+```
+
 ## Basic Usage
 
 ```jsx

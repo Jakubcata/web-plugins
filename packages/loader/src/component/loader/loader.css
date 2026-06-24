@@ -1,5 +1,5 @@
 .jx-loader {
-  $color: #58c4dc;
+  --jx-color: #58c4dc;
 
   box-sizing: border-box;
   background-color: transparent;
@@ -9,12 +9,12 @@
   padding: 0.3rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: $color;
-  $_m:
-    conic-gradient(transparent 10%, $color),
-    linear-gradient($color 0 0) content-box;
-  -webkit-mask: $_m;
-  mask: $_m;
+  background: var(--jx-color);
+  --jx-mask:
+    conic-gradient(transparent 10%, var(--jx-color)),
+    linear-gradient(var(--jx-color) 0 0) content-box;
+  -webkit-mask: var(--jx-mask);
+  mask: var(--jx-mask);
   -webkit-mask-composite: source-out;
   mask-composite: subtract;
   animation: spinner 1s infinite linear;
